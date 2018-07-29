@@ -6,4 +6,182 @@ body {
   margin: 0;
   min-height: 100%;
   font: 16px / 1 sans-serif;
+  background-color: white;
+}
+
+.nav {
+  background-color: black;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navright{
+  display: flex;
+  flex-direction: row;
+  margin: 1em 0 1em 0;
+  font-size: 0.5em;
+  list-style-type: none;
+}
+
+.nav a {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: right;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  color: darkgray;
+}
+
+.logo {
+  width: 12em;
+  margin-left: 1em;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url(images/wolf.jpg);
+  background-position: center;
+  height: auto;
+}
+
+h1 {
+font-size: 3em;
+color: white;
+font-weight: 100;
+margin: 2em 0em 0em 0em;
+}
+
+h2 {
+  font-size: 2em;
+  color: white;
+  font-weight: 100;
+  margin-bottom: 14em;
+}
+
+.pics {
+  width: 15em;
+  height: 15em;
+  border: 0.1em solid lightgray;
+  margin: 1em 1em 1em 1em;
+  border-radius: 2em;
+  image-orientation: 0deg;
+  border: none;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.aboutgus {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-color: black;
+  padding: 2em;
+}
+
+.paragraph {
+  width: 35em;
+  padding: 4em;
+  font-style: italic;
+  font-size: 1em;
+  font-weight: 100;
+  text-align: justify;
+  color: white;
+  line-height: 1.5em;
+}
+
+.user {
+  width: 2em;
+  border: none;
+  margin: 0em 0.3em 0em 0em;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-around;
+  background-image: url(images/codingbackground.png);
+  background-position: center;
+  height: auto;
+  padding: 2em;
+}
+
+.socialmedia {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: black;
+  padding: 0em 0em 2em 0em;
+}
+
+.twitter-motto {
+  width: auto;
+  color: white;
+  font-weight: bold;
+  font-size: 32px;
+  text-align: center;
+  padding: 2em;
+}
+
+.socialmedialinks {
+  display: flex;
+  justify-content: space-around;
+  margin: 0em 20em 5em 20em;
+}
+
+.socialmedialinks img{
+  width: 5em; 
+  margin: 1em 1em 1em 1em; 
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-github {
+  background: #25292E;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #117CB3;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #175583;
+  color: white;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
 }
